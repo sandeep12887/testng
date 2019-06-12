@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="org.testNG.TestNG.Iannot"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" parallel="methods">
+    <classes>
+      <class name="org.testNG.TestNG.Annotations2">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- org.testNG.TestNG.Annotations2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
