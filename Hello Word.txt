@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Abdul
 
@@ -5,3 +6,6 @@ Vivek
 
 sandeep raj
 
+=======
+sdyuiop
+>>>>>>> 87b79793389c75f76b02e3f6702d9cfe12f45bae
